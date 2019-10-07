@@ -1,0 +1,29 @@
+[debug] [2019-10-07T17:11:13.046Z] ----------------------------------------------------------------------
+[debug] [2019-10-07T17:11:13.048Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dkyou\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-10-07T17:11:13.048Z] CLI Version:   7.4.0
+[debug] [2019-10-07T17:11:13.048Z] Platform:      win32
+[debug] [2019-10-07T17:11:13.048Z] Node Version:  v10.16.3
+[debug] [2019-10-07T17:11:13.049Z] Time:          Tue Oct 08 2019 02:11:13 GMT+0900 (GMT+09:00)
+[debug] [2019-10-07T17:11:13.049Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-07T17:11:13.054Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-07T17:11:13.055Z] > authorizing via signed-in user
+[debug] [2019-10-07T17:11:13.055Z] [iam] checking project hifive-211dd for permissions ["firebase.projects.get"]
+[debug] [2019-10-07T17:11:13.056Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-07T17:11:13.056Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-07T17:11:13.307Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T17:11:13.313Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/hifive-211dd:testIamPermissions  
+
+[debug] [2019-10-07T17:11:14.234Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-07T17:11:14.235Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hifive-211dd  
+ 
+[debug] [2019-10-07T17:11:15.087Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\dkyou\OneDrive\바탕 화면\새 폴더 (2)\memo'...
+[info] 
+[debug] [2019-10-07T17:11:15.089Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/hifive-211dd/webApps/-/config  
+ 
+[debug] [2019-10-07T17:11:16.224Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
